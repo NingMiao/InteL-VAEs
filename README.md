@@ -2,7 +2,7 @@
 Codes for paper &lt;InteL-VAEs: Adding Inductive Biases to Variational Auto-Encoders via Intermediary Latents>. InteL-VAE is a simple and effective method for learning VAEs with controllable inductive biases by using an intermediary set of latent variables. This allows us to overcome the limitations of the standard Gaussian prior assumption. In particular, it allows us to impose desired properties like sparsity or clustering on learned representations, and incorporate prior information into the learned model.
 ![Model Graph](https://github.com/NingMiao/InteL-VAEs/blob/main/model.png)
 
-## Usage
+## Usages
 ### To try low dimensional datasets, 
 	run *_low_dim.ipynb in Jupyter notebook.
 ### To train inteL-VAEs and other baselines,
