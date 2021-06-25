@@ -6,10 +6,7 @@ from copy import deepcopy as copy
 import numpy as np
 import argparse
 import os
-import glob
 import matplotlib.pyplot as plt
-import imageio
-from IPython import display
 #For image generation and FID score
 from PIL import Image
 from fid_score.fid_score import FidScore
